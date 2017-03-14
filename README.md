@@ -1,5 +1,9 @@
 # RequiredKeywords
 
+[![Build Status](https://travis-ci.org/adamslc/RequiredKeywords.jl.svg?branch=master)](https://travis-ci.org/adamslc/RequiredKeywords.jl)
+[![Build status](https://ci.appveyor.com/api/projects/status/b8qbm03hh9knhvxb?svg=true)](https://ci.appveyor.com/project/adamslc/requiredkeywords-jl)
+[![codecov.io](http://codecov.io/github/adamslc/RequiredKeywords.jl/coverage.svg?branch=master)](http://codecov.io/github/adamslc/RequiredKeywords.jl?branch=master)
+
 This package allows you to specify required keyword arguments, as suggusted in https://github.com/JuliaLang/julia/issues/5111.
 
 # Usage
@@ -17,9 +21,3 @@ ERROR: Unassigned Keyword:  Required keyword y::Int64 not included.
 Stacktrace:
  [1] f(::Int64) at ./REPL[5]:1
 ```
-
-[![Build Status](https://travis-ci.org/adamslc/RequiredKeywords.jl.svg?branch=master)](https://travis-ci.org/adamslc/RequiredKeywords.jl)
-
-[![Coverage Status](https://coveralls.io/repos/adamslc/RequiredKeywords.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/adamslc/RequiredKeywords.jl?branch=master)
-
-[![codecov.io](http://codecov.io/github/adamslc/RequiredKeywords.jl/coverage.svg?branch=master)](http://codecov.io/github/adamslc/RequiredKeywords.jl?branch=master)
