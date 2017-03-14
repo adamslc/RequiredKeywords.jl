@@ -10,7 +10,7 @@ module RequiredKeywords
     """
     Indicated that a funtion has been called without specifying a keyword which has no default.
     """
-    struct UnassignedKeyword <:Exception
+    immutable UnassignedKeyword <:Exception
         msg::String
     end
 
