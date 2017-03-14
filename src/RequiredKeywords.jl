@@ -34,6 +34,11 @@ module RequiredKeywords
                 paramListID = i
             end
 
+            # If there are no keyword arguments, do nothing
+            if paramListID == 0
+                return esc(:( $exp ))
+            end
+
             # Check each parameter, update if necessary
             for (i, param) in enumerate(exp.args[1].args[paramListID].args)
                 if typeof(param) == Symbol || param.head == :(::)
