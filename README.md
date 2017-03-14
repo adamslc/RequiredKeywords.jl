@@ -1,6 +1,6 @@
 # RequiredKeywords
 
-This package allows you to specify required keyword arguments.
+This package allows you to specify required keyword arguments, as suggusted in https://github.com/JuliaLang/julia/issues/5111.
 
 # Usage
 ```julia
