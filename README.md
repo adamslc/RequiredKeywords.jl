@@ -6,6 +6,8 @@
 
 This package allows you to specify required keyword arguments, as suggusted in https://github.com/JuliaLang/julia/issues/5111.
 
+As of Julia version 0.7.0, this functionality is built in. From this version forward, the `@required_keywords` macro won't do anything.
+
 # Usage
 ```julia
 julia> using RequiredKeywords
